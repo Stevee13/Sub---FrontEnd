@@ -80,7 +80,7 @@ nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-/* main */
+/* main/promoçoes */
 main {
     padding: 20px;
     background-color: #5C2E17;
@@ -147,8 +147,15 @@ main {
     margin-top: 10px;
 }
 
+.preco {
+    font-size: 1.2em;
+    color: black;
+    margin: 10px 0;
+    text-align: center; 
+}
+
 .card-buttons {
-    margin-top: auto;
+    margin-top: 30px;
     display: flex;
     gap: 10px;
 }
@@ -179,7 +186,7 @@ main {
     transform: scale(0.95);
 }
 
-/* seçao2 categorias */
+/* seçao2: categorias */
 .categorias {
     margin-top: 40px;
     padding: 20px;
